@@ -1,0 +1,20 @@
+nav {
+ margin: 1px solid;
+ background-color: #666;
+ width: 100%;
+ margin-left: -1%;
+ margin-top: -1%;
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+}
+
+nav a {
+ color: #fff;
+ text-decoration: none;
+ margin: 0 10px;
+}
+
+nav a:hover {
+ text-decoration: underline;
+}
