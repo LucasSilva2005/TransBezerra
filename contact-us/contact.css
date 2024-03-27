@@ -1,56 +1,77 @@
+nav {
+ margin: 1px solid;
+ background-color: #666;
+ width: 100%;
+ margin-left: -1%;
+ margin-top: -1%;
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+}
+
+nav a {
+ color: #fff;
+ text-decoration: none;
+ margin: 0 10px;
+}
+
+nav a:hover {
+ text-decoration: underline;
+}
+
 .container {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin: 50px auto;
-   }
-   
-   .caixa1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    top: -25%;
-    right: 178%;
-    width: 225%;
-    height: 100%;
-    background-color: #e1cccc;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-   }
-   
-   .caixa2 {
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 2%;
-    position: relative;
-    top: -40%;
-    right: 150%;
-    left: -50%;
-    width: 250%;
-    height: 150%;
-    background-color: #ebdddd;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-   }
-   form {
-    position: relative;
-    text-align: center;
-    top: 10%;
-    left: 20%;
-   }
-   input {
-    border: 1px solid rgb(255, 255, 255);
-    width: 40%;
-   }
-   
-   .caixa1 {
-    z-index: 2;
-   }
-   
-   .caixa2 {
-    z-index: 1;
-   }
-   
-   img {
-    width: 100px;
-    margin: 1px solid;
-    margin-top: 18%;
-   }
+ position: relative;
+ width: 300px;
+ height: 200px;
+ margin: 50px auto;
+}
+
+.caixa1 {
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 20px;
+ text-align: center;
+ position: relative;
+ top: -25%;
+ right: 178%;
+ width: 225%;
+ height: 100%;
+ background-color: #e1cccc;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.caixa2 {
+ border: 1px solid rgb(255, 255, 255);
+ border-radius: 2%;
+ position: relative;
+ top: -40%;
+ right: 150%;
+ left: -50%;
+ width: 250%;
+ height: 150%;
+ background-color: #ebdddd;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+form {
+ position: relative;
+ text-align: center;
+ top: 10%;
+ left: 20%;
+}
+input {
+ border: 1px solid rgb(255, 255, 255);
+ width: 40%;
+}
+
+.caixa1 {
+ z-index: 2;
+}
+
+.caixa2 {
+ z-index: 1;
+}
+
+img {
+ width: 100px;
+ margin: 1px solid;
+ margin-top: 18%;
+}
