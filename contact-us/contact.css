@@ -63,7 +63,7 @@ nav a:hover {
     right: 150%;
     left: -50%;
     width: 250%;
-    height: 150%;
+    height: 120%;
     background-color: #3a3a3a;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
@@ -97,4 +97,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
 }
