@@ -112,29 +112,14 @@ footer {
  height: 6%;
 }
 
-/* Media query para dispositivos móveis */
-@media screen and (max-width: 600px) {
- header {
-     padding: 5px;
- }
+@media screen and (min-width: 768px) {
+    .container2 {
+        flex-wrap: nowrap;
+    }
 
- nav {
-     padding: 5px;
- }
-
- nav a {
-     margin: 0 3px;
- }
-
- .container {
-     padding: 0 5px;
- }
-
- .main-content {
-     padding: 5px;
- }
-
- .container2 {
-     height: 150px;
- }
+    .caixa1,
+    .caixa2,
+    .caixa3 {
+        width: calc(33.33% - 40px);
+    }
 }

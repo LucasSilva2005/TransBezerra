@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fale Conosco</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="contact.css" />
-    <link rel="shortcut icon" href="/assets/logo.jpeg" type="image/x-icon">
+  </head>
 
-    <title>Entre em contato</title>
-</head>
-
-<body>
+  <body>
     <header>
         <img src="/assets/logo.jpeg" alt="logo TransBezerra" />
     </header>
@@ -20,25 +25,58 @@
         <a href="/about/about.html">Sobre Nós</a>
         <a href="/contact-us/contact.html">Contato</a>
     </nav>
-    <div class="container">
-        <div class="caixa1">
-            <br /><br />
-            <b> Entre em contato conosco </b><br /><br /> Nos deixe uma mensagem
-        </div>
-        <div class="caixa2">
-            <form action="" method="post" name="form">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" /><br /><br />
-                <label for="Email">Email:</label>
-                <input type="text" name="Email" id="Email" /><br /><br />
-                <label for="Mensagem">Mensagem:</label>
-                <input type="text" name="Mensagem" id="Mensagem" />
-            </form>
-        </div>
+
+    <div class="wrapper-main">
+      <main class="main">
+        <section class="section-1">
+          <div class="title-0">
+            <h1>QUER NOS AJUDAR A CONSTRUIR A TRANSBEZERRA?</h1>
+            <h2>Preencha o formulário e deixe sua sugestão</h2>
+          </div>
+        </section>
+      </main>
+
+      <div class="box">
+        <form action="../response-to-forms/index.html">
+          <div class="campo-forms">
+            <div class="campo">
+              <label for="nome">Nome:</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div class="campo">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Digite seu email"
+                required
+              />
+            </div>
+            <div class="campo">
+              <label for="mensagem">Mensagem:</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="4"
+                placeholder="Digite sua mensagem"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">ENVIAR</button>
+          </div>
+        </form>
+      </div>
     </div>
+
     <footer>
         <p>&copy; 2024 TransBezerra. Todos os direitos reservados.</p>
     </footer>
-</body>
-
+  </body>
 </html>
